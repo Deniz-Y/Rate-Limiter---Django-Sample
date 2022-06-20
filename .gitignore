@@ -1,0 +1,15 @@
+db.sqlite3
+**/*.pyc
+**/**/*.pyc
+**/**/**/*.pyc
+env/
+static/
+**/*.djcache
+.vscode/*
+storage/
+node_modules/
+.env
+.idea
+venv
+dj2API/secondApp/**/*.pyc
+secondApp/__pycache__/**
