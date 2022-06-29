@@ -15,7 +15,7 @@ def handler403(request, exception=None):
 
 @api_view()
 @permission_classes([AllowAny])
-@ratelimit(key='ip', rate = '10/h', block=True)
+@ratelimit(key='ip', rate = '5/2m', block=True)
 def secondFunction(request):
     return Response({'message': "Hello from secondFunction"})
 
